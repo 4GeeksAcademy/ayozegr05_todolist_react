@@ -1,12 +1,24 @@
+li{
+    width: 350px !important;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.list-group-item .remove-icon {
+    visibility: hidden;
+  }
+  
+  .list-group-item:hover .remove-icon {
+    visibility: visible;
+    color: red;
+  }
+  input{background:rgb(180, 234, 255);}
+  .contenedorprincipal{
+    width:600px;
+    border: solid 1px;
+    border-radius:0.5rem;
+  }
+  h1{border-bottom:solid 1px;
+    border-radius:0.5rem 0.5rem 0 0;
+  background: yellow;}
+  .custom-list-group .list-group-item {
+    border-color: black;
+  }
